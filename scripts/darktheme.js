@@ -1,25 +1,25 @@
 let corpo = document.querySelector('.dark');
 let botao = document.querySelector("button");
 let h1 = document.querySelector("h1");
-let div = document.querySelectorAll('div');
-let p = document.querySelectorAll('p')
-let h2 = document.querySelectorAll('h2')
 
 function darkmodedivs(){
+    let div = document.querySelectorAll('div');
     for (const divs of div) {
-        divs.classList.toggle("itens-darktheme").innertext;
+        divs.classList.toggle("itens-darktheme").innerText;
 }
 }
 
 function darmodeh2(){
+    let h2 = document.querySelectorAll('h2');
     for (const textos of h2) {
-        textos.classList.toggle("texto-darktheme").innertext;
+        textos.classList.toggle("texto-darktheme").innerText;
     }
     }
 
 function darkmodep(){
+    let p = document.querySelectorAll('p')
     for (const textos of p) {
-        textos.classList.toggle("texto-darktheme").innertext;
+        textos.classList.toggle("texto-darktheme").innerText;
     }
 }
 
