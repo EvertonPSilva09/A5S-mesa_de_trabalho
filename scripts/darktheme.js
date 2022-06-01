@@ -16,6 +16,8 @@ function darmodeh2(){
     }
     }
 
+
+
 function darkmodep(){
     let p = document.querySelectorAll('p')
     for (const textos of p) {
